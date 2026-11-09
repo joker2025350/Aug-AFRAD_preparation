@@ -1,0 +1,36 @@
+{
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "title": "Aug-AFRAD preparation: augmentation scripts, hand-drawn defect masks, and dataset curation records",
+  "version": "1.0.0",
+  "description": "<p>Preparation materials for <strong>Aug-AFRAD</strong>, derived from the AFRAD magnetic tile dataset. This release contains the components that can be redistributed; AFRAD images and their augmented derivatives are not included because redistribution permission has not been obtained.</p><p><strong>Contents</strong></p><ul><li><code>augmentation_methods/</code> - deterministic photometric augmentation and mask-guided defect copy-paste</li><li><code>manual_defect_masks/</code> - 79 hand-drawn defect masks (47 crack, 32 folds) stored as TIFF</li><li><code>dataset_curation/</code> - screening records for 47 label conflicts and 28 multi-defect images</li></ul><p><strong>Provenance</strong></p><p>Source dataset: AFRAD, https://wangh257.github.io/AFRAD/data_download.html (Wang et al., 2025, https://doi.org/10.1016/j.measurement.2025.116702).</p><p><strong>Licensing</strong></p><p>The scripts in <code>augmentation_methods/</code> are released under the MIT License. The mask files and curation records are released under CC BY 4.0. The record-level license shown here applies to the masks and curation records.</p>",
+  "creators": [
+    {
+      "name": "Xiao, Zunhai"
+    }
+  ],
+  "keywords": [
+    "magnetic tile",
+    "surface defect",
+    "data augmentation",
+    "defect mask",
+    "dataset curation",
+    "industrial inspection",
+    "machine vision"
+  ],
+  "notes": "The augmentation scripts require Pillow; see requirements.txt. AFRAD images are not redistributed in this release.",
+  "related_identifiers": [
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://doi.org/10.1016/j.measurement.2025.116702",
+      "resource_type": "publication"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/joker2025350/Aug-AFRAD_preparation",
+      "resource_type": "software"
+    }
+  ]
+}

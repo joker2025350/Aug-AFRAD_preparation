@@ -6,13 +6,7 @@ Twenty-eight images contain two or more defect types and were excluded from the 
 
 ## Defect Categories
 
-| Category | Description |
-| --- | --- |
-| broken | broken / fracture |
-| crack | crack |
-| folds | folds |
-| impurities | impurities |
-| rough | rough surface |
+Samples are labelled with one of five categories: `broken`, `crack`, `folds`, `impurities`, `rough`.
 
 ## Overview
 
